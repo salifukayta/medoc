@@ -11,7 +11,7 @@ $(function () {
 		var senderMail = $("#email").val();
 		var mailContent = $("#msg").val();
 
-		window.location.href = 'mailto:zaher.srour@sequoia-medical.com?subject=[Contact from Sequoia: ' + senderName + ']&cc=' + senderMail + '&body=' + mailContent;
+		window.location.href = 'mailto:zaher.srour@sequoia-medical.com?subject=[Contact from Sequoia: ' + senderName + ']&bcc=' + senderMail + '&body=' + mailContent;
 		div_hide();
 	});
 
