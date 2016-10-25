@@ -655,6 +655,10 @@
     justify-content: center;
     height: 500px;
 }
+.parg1_10 {
+  display: flex;
+  font-size: 25px;
+}
 .img10{
     position: relative;
     margin-left: 65px;
@@ -662,8 +666,8 @@
 .menu_part10 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 45px;
+    justify-content: space-around;
+    margin: 2vw;
     border: thin solid #bcaeaa;
     max-width: 272px;
     height: 350px;
