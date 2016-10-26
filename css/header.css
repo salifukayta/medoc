@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 80px;
+    height: 70px;
 }
 
 .sequo_img1 {
     position: relative;
     top: -9px;
-    left: -28px;
+    left: 72px;
 
 }
 
@@ -76,7 +76,7 @@
 .text_img_doc {
     color: #ffffff;
     font-family: Open Sans;
-    font-size: 38pt;
+    font-size: 27pt;
     font-weight: bold;
     position: absolute;
     top: 115px;
