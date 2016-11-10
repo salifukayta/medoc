@@ -127,9 +127,10 @@
 .hr1 {
     font-size: 1px;
     color: #bcaeaa;
-    width: 191px;
+    width: 200px;
     display: flex;
     position: relative;
+    margin-left: 40px;
 }
 .hr1_p8 {
     font-size: 1px;
@@ -137,6 +138,7 @@
     width: 225px;
     display: flex;
     position: relative;
+    margin-left: 20px;
 }
 
 
@@ -145,10 +147,7 @@
 .hr1_part4_2{
     font-size: 1px;
     color: #bcaeaa;
-    width: 191px;
-    display: flex;
-    position: relative;
-    top: -7px;
+    width: 220px;
 }
 
 .part2_1 {
@@ -195,7 +194,6 @@
     background: #1eb0b8;
     width: 109px;
     font-size: 15px;
-    display: flex;
     font-weight: bold;
     position: relative;
     margin-left: 140px;
