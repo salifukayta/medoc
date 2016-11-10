@@ -4,18 +4,21 @@
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 
-    <link rel="stylesheet" type="text/css" href="../css/header.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/message.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/soon.css"/>
+    <link rel="stylesheet" type="text/css" href="css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="css/message.css"/>
+    <link rel="stylesheet" type="text/css" href="css/soon.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slider.css"/>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
     <title>Home Page</title>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="../js/pop_up.js"></script>
-    <script type="text/javascript" src="../js/email.js"></script>
-    <script type="text/javascript" src="../js/soon.js"></script>
+    <script type="text/javascript" src="js/pop_up.js"></script>
+    <script type="text/javascript" src="js/email.js"></script>
+    <script type="text/javascript" src="js/soon.js"></script>
+    <script type="text/javascript" src="js/sliderjs.js"></script>
+
 
 </head>
 
@@ -23,7 +26,7 @@
 
 <div class="header">
 
-    <img src="../img/logo.png" class="sequo_img1">
+    <img src="img/logo.png" class="sequo_img1">
     <div class="menu">
         <a class="menu_link button_soon" onclick="soon()" id="popup_soon">
             HOME
@@ -38,10 +41,20 @@
             CONTACT US
         </a>
     </div>
-    <!-- ******************* -->
+</div>
+<!-- ******************* -->
+
+
+<div id="slideshow-container">
+    <div id="slideshow">
+        <div id="box1"><img src="img/img1doc.png" class="imgslide"></div>
+        <div id="box2"><img src="img/grow.png" class="imgslide"></div>
+        <div id="box3"><img src="img/data.png" class="imgslide"></div>
+
+    </div>
 </div>
 
-
+<!--
 <div class="div_img_doc">
     <img src="../img/docteurs.png" class="img_doc">
     <p class="text_img_doc">
@@ -50,6 +63,7 @@
 
     </p>
 </div>
+-->
 <!-- *************Part2****** -->
 <div class="part2">
     <div class="part2_1">
@@ -77,7 +91,7 @@
 
 
     <div>
-        <img src="../img/part2.png">
+        <img src="img/part2.png">
     </div>
 </div>
 <!-- *******************       -->
@@ -88,7 +102,7 @@
 <!-- *******************  -->
 <div class="part4">
     <div class="part4_1">
-        <img src="../img/doc.png" class="img_doc">
+        <img src="img/doc.png" class="img_doc">
     </div>
 
 
@@ -177,7 +191,7 @@
 
 
     <div class="part5_2">
-        <img src="../img/doc_prt5.png">
+        <img src="img/doc_prt5.png">
     </div>
 </div>
 <!-- ****************** Part 6************************* -->
@@ -187,7 +201,7 @@
 </div>
 <!-- ****************** Part 7************************* -->
 <div class="part7">
-    <img src="../img/img6.png" class="img6">
+    <img src="img/img6.png" class="img6">
 </div>
 
 <!-- *******************  Part 8     -->
@@ -297,13 +311,13 @@
 
 
     <div>
-        <img src="../img/p9.png">
+        <img src="img/p9.png">
     </div>
 </div>
 <!-- *******************  Part 10    -->
 <div class="part10">
     <div class="img10">
-        <img src="../img/p10.png">
+        <img src="img/p10.png">
     </div>
     <div class="part2_1">
 
@@ -401,7 +415,7 @@
         <div id="popupContact">
             <!-- Contact Us Form -->
             <form action="#" id="form" method="post" name="form">
-                <img id="close" src="../img/croix.png" onclick="div_hide()">
+                <img id="close" src="img/croix.png" onclick="div_hide()">
                 <h2>Contact Us</h2>
                 <hr class="hrr">
                 <input id="name" name="name" placeholder="Name" type="text">
@@ -421,9 +435,9 @@
         <!-- Popup Div Starts Here -->
         <div id="popup_soon">
             <!-- Contact Us Form -->
-            <img id="img_soon" src="../img/coming.png">
+            <img id="img_soon" src="img/coming.png">
 
-            <img id="close_soon" src="../img/croix.png" onclick="div_hide_soon()">
+            <img id="close_soon" src="img/croix.png" onclick="div_hide_soon()">
 
         </div>
         <!-- Popup Div Ends Here -->
