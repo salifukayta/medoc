@@ -4,22 +4,33 @@
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 
+    <!--Toastr Style-->
+    <link href="node_modules/toastr/build/toastr.min.css" rel="stylesheet"/>
+    <!--Stick Carousol Style-->
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/component_style.css"/>
     <link rel="stylesheet" type="text/css" href="css/header.css"/>
     <link rel="stylesheet" type="text/css" href="css/message.css"/>
     <link rel="stylesheet" type="text/css" href="css/soon.css"/>
-    <link rel="stylesheet" type="text/css" href="css/slider.css"/>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
     <title>Home Page</title>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!--JQuery Lib-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <!--Toastr Lib-->
+    <script src="node_modules/toastr/build/toastr.min.js"></script>
+    <!--Stick Carousol Lib-->
+    <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
+
     <script type="text/javascript" src="js/pop_up.js"></script>
     <script type="text/javascript" src="js/email.js"></script>
     <script type="text/javascript" src="js/soon.js"></script>
-    <script type="text/javascript" src="js/sliderjs.js"></script>
-
-
+    <script type="text/javascript" src="js/init.js"> </script>
 </head>
 
 <body>
@@ -28,42 +39,29 @@
 
     <img src="img/logo.png" class="sequo_img1">
     <div class="menu">
-        <a class="menu_link button_soon" onclick="soon()" id="popup_soon">
+        <a class="menu_link button_soon" onclick="soon()">
             HOME
         </a>
-        <a class="menu_link menu_separator button_soon" onclick="soon()" id="popup_soon">
+        <a class="menu_link menu_separator button_soon" onclick="soon()">
             PRODUCTS
         </a>
-        <a class="menu_link menu_separator button_soon" onclick="soon()" id="popup_soon">
-            SERVICES
+        <a class="menu_link menu_separator button_soon" onclick="soon()">
+            SOLUTIONS
         </a>
-        <a class="menu_link menu_separator button" onclick="div_show()" id="popup">
+        <a class="menu_link menu_separator button" onclick="div_show()">
             CONTACT US
         </a>
     </div>
 </div>
 <!-- ******************* -->
 
-
-<div id="slideshow-container">
-    <div id="slideshow">
-        <div id="box1"><img src="img/img1doc.png" class="imgslide"></div>
-        <div id="box2"><img src="img/grow.png" class="imgslide"></div>
-        <div id="box3"><img src="img/data.png" class="imgslide"></div>
-
-    </div>
+<div id="carousel-part1">
+    <div><img src="img/docteurs.png" class="img_full_width"/></div>
+    <div><img src="img/data.png" class="img_full_width"/></div>
+    <div><img src="img/grow.png" class="img_full_width"/></div>
 </div>
 
-<!--
-<div class="div_img_doc">
-    <img src="../img/docteurs.png" class="img_doc">
-    <p class="text_img_doc">
-        DRIVING EFFICIENCY AND PRODUCTIVITY <br>
-        WITH CUSTOMIZED PROCEDURE TRAYS <br>
 
-    </p>
-</div>
--->
 <!-- *************Part2****** -->
 <div class="part2">
     <div class="part2_1">
@@ -86,7 +84,7 @@
             </div>
         </div>
 
-        <input type="button" value="GET MORE DETAILS" class="btn_moredetails">
+        <input type="button" value="GET MORE DETAILS" class="btn_moredetails blue-btn">
     </div>
 
 
@@ -109,7 +107,7 @@
     <!-- *******************bloc1  -->
     <div class="part4_2">
         <div class="parg4_1">
-            <p class="parg1_1" href="#">
+            <p class="parg1_1">
                 EVERYTHING <br>
                 YOUR STAFF NEEDS <br>
                 IN A SINGLE, <br>
@@ -120,7 +118,7 @@
         </div>
         <hr class="hr1_part4_2">
         <div class="parg4_2">
-            <div class="parg1_1" href="#">
+            <div class="parg1_1">
                 Preparation time <br>
                 for surgical procedures <br>
                 cut in half
@@ -131,12 +129,12 @@
     <!-- *******************bloc 2 -->
     <div>
         <div class="part4_3">
-            <p class="parg4_3 parg1_1_1" href="#">
+            <p class="parg4_3 parg1_1_1">
                 BETTER CARE <br>
                 FOR MORE <br>
                 PATIENTS
             </p>
-            <p class="parg4_3 parg1_1_2" href="#">
+            <p class="parg4_3 parg1_1_2">
                 Less running around, <br>
                 and more time <br>
                 for your surgical staff <br>
@@ -145,7 +143,7 @@
 
         </div>
         <!-- ****************** div de btn: position with margins -->
-        <div class="read_more"><a class="read_more_a" href="">READ MORE</a></div>
+        <div class="read_more"><a class="read_more_a grey-btn" href="">READ MORE</a></div>
     </div>
 
 </div>
@@ -158,22 +156,20 @@
 
             <div class="menu_part5">
                 <div class="parg5_1">
-
-                    <div href="#">
+                    <div>
                         PATIENT SAFETY
                     </div>
                 </div>
                 <hr class="hr2">
                 <div class="parg5_2">
-
-                    <div href="#">
+                    <div>
                         Where patients are<br>
                         ALWAYS the center of attention
                     </div>
                 </div>
             </div>
             <div class="parg5_3">
-                <input type="button" value="READ MORE" class="btn_read_more">
+                <input type="button" value="READ MORE" class="btn_read_more blue-btn">
             </div>
             <div class="parg5_4">
                 <p class="parg5_4_1">
@@ -258,7 +254,7 @@
                 </div>
                 <hr class="hr1_p8">
                 <div class="parg1_b2">
-                    <div class="menu_link1 menu_link1_center">
+                    <div class="menu_link1">
                         Nursing staff can <br>
                         concentrate entirely <br>
                         on their patients <br><br>
@@ -274,7 +270,7 @@
         </div>
 
         <div class="read_more_p8">
-            <a class="read_more_p8_a" href="">READ MORE</a>
+            <input type="button" value="READ MORE" class="read_more_p8_a blue-btn">
         </div>
 
 
@@ -306,7 +302,7 @@
             </div>
         </div>
 
-        <input type="button" value="LEARN MORE" class="btn_moredetails1">
+        <input type="button" value="LEARN MORE" class="btn_moredetails1 blue-btn">
     </div>
 
 
@@ -342,7 +338,7 @@
             </div>
         </div>
 
-        <input type="button" value="READ MORE " class="btn_moredetails width">
+        <input type="button" value="READ MORE " class="btn_moredetails2 blue-btn">
     </div>
 
 
@@ -382,7 +378,7 @@
 </div>
 <!-- ****************** Part 13************************* -->
 <div class="part13">
-    <a class="read_more_p13" href="">READ MORE</a>
+    <a class="read_more_p13 grey-btn" href="">READ MORE</a>
 
 </div>
 <!-- ****************** Part 14************************* -->
@@ -391,17 +387,12 @@
     <div class="menu">
         <a class="menu_link14" href="">
             ABOUT US
-
         </a>
         <a class="menu_link14 menu_separator14" href="">
-
             CAREERS
-
         </a>
-        <a class="menu_link14 menu_separator14 button" onclick="div_show()" id="popup">
-
+        <a class="menu_link14 menu_separator14 button" onclick="div_show()">
             CONTACT US
-
         </a>
     </div>
 </div>

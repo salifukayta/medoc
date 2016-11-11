@@ -1,0 +1,50 @@
+
+/* used with input */
+.blue-btn {
+    color: #ffffff;
+    font-family: Open Sans;
+    background: #1eb0b8;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    -moz-box-shadow: 1px 1px 3px 0px #656565;
+    -webkit-box-shadow: 1px 1px 3px 0px #656565;
+    -o-box-shadow: 1px 1px 3px 0px #656565;
+    box-shadow: 1px 1px 3px 0px #656565;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=3);
+}
+
+.blue-btn:hover {
+    -moz-box-shadow: 3px 3px 7px 0px #656565;
+    -webkit-box-shadow: 3px 3px 7px 0px #656565;
+    -o-box-shadow: 3px 3px 7px 0px #656565;
+    box-shadow: 3px 3px 7px 0px #656565;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=7);
+}
+
+/* used with link */
+.grey-btn {
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    align-self: center;
+    font-family: Open Sans;
+    background: #bcaeaa;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    -moz-box-shadow: 1px 1px 3px 0px #656565;
+    -webkit-box-shadow: 1px 1px 3px 0px #656565;
+    -o-box-shadow: 1px 1px 3px 0px #656565;
+    box-shadow: 1px 1px 3px 0px #656565;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=3);
+}
+
+.grey-btn:hover {
+    -moz-box-shadow: 3px 3px 7px 0px #656565;
+    -webkit-box-shadow: 3px 3px 7px 0px #656565;
+    -o-box-shadow: 3px 3px 7px 0px #656565;
+    box-shadow: 3px 3px 7px 0px #656565;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=7);
+}
