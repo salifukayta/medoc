@@ -83,7 +83,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 45px;
+    /*Pour que le margin sois responsive*/
+    margin: 3vw;
+    /*margin: 45px;*/
     border: thin solid #bcaeaa;
     max-width: 250px;
     height: 330px;
@@ -527,7 +529,9 @@
 }
 .img10{
     position: relative;
-    margin-left: 65px;
+    /*La valeur en viewWidth est mieux adapté pour le responsive*/
+    margin-left: 4vw;
+    /*margin-left: 65px;*/
 }
 .menu_part10 {
     display: flex;
