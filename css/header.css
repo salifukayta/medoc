@@ -99,6 +99,11 @@
     background-color: #ffffff;
 }
 
+.content-page {
+    position: relative;
+    top: 67px;
+}
+
 .parg1 {
     display: flex;
     position: relative;
@@ -385,6 +390,10 @@
 
 .img6 {
     width: 100%;
+}
+
+.part7 {
+    display: flex;
 }
 
 .part8 {

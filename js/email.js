@@ -7,7 +7,7 @@ $(function () {
 	console.log("ready!");
 
 	$("#submit").click(function (event) {
-		var destinationEmail = "zaher.srour@sequoia-medical.com";
+		var destinationEmail = "info@sequoia-medical.com";
 		var senderName = $("#name").val();
 		var senderMail = $("#email").val();
 		var mailContent = $("#msg").val();
@@ -43,7 +43,7 @@ $(function () {
 		// copy the selection
 		try {
 			succeed = document.execCommand('copy');
-			toastr.info('info.srour@sequoia-medical.com is copied to your clipBoard')
+			toastr.info(destinationEmail + ' is copied to your clipBoard')
 		} catch(e) {
 			console.error('Copie to the clipBoard faild');
 		}
