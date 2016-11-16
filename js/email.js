@@ -43,7 +43,7 @@ $(function () {
 		// copy the selection
 		try {
 			succeed = document.execCommand('copy');
-			toastr.info('zaher.srour@sequoia-medical.com is copied to your clipBoard')
+			toastr.info('info.srour@sequoia-medical.com is copied to your clipBoard')
 		} catch(e) {
 			console.error('Copie to the clipBoard faild');
 		}
